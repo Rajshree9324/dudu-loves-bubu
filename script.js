@@ -1,18 +1,16 @@
 // BACKGROUND MUSIC FIX
-window.addEventListener("click", function () {
-    let music = document.getElementById("bgMusic");
-    if (music) {
-        music.play();
-    }
-}, { once: true });
 
-window.addEventListener("load", function () {
-    if (localStorage.getItem("musicPlaying") === "true") {
-        let music = document.getElementById("bgMusic");
+document.addEventListener("DOMContentLoaded",
+function () {
+    const music =
+    document.getElementById("bgMusic");
+
+    document.body.addEventListener("click",
+function () {
         if (music) {
             music.play();
         }
-    }
+    }, { once: true});
 });
 
 /* PASSWORD */
@@ -174,6 +172,7 @@ function showStory() {
 if (document.getElementById("storyText")) {
     showStory();
 }
+
 
 
 
