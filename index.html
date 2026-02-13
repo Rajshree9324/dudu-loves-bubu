@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bubu ❤️ Dudu</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<script>
+document.addEventListener("click", function () {
+    document.getElementById("bgMusic").play();
+});
+</script>
+<body class="home">
+
+<div class="overlay">
+
+    <div id="homePage">
+        <h1 class="glow">💖 A Bubu's Production 💖</h1>
+        <p>Unakaga! Love you Ammuuuu!!! ❤️</p>
+        <button onclick="showPassword()">Enter 💌</button>
+    </div>
+
+    <div id="passwordPage" class="hidden">
+        <h2>Nee Dudu na, Na Yaaruu??? ❤️</h2>
+        <input type="password" id="passwordInput">
+        <br>
+        <button onclick="checkPassword()">Unlock ❤️</button>
+        <p id="wrongPass"></p>
+    </div>
+
+</div>
+
+<audio id="bgMusic" autoplay loop>
+    <source src="audiolove.mp3" type="audio/mp3">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

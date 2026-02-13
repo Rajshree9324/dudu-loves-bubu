@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Great Vibes', serif;
+    font-size:1.8rem;
+    color: rgb(45, 7, 46);
+    overflow-x:hidden;
+}
+
+/* HOME */
+body.home {
+    background: url("images/bg.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+.overlay {
+    background: rgb(240, 141, 240);
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+.hidden { display:none; }
+
+.dark {
+    background: radial-gradient(circle at top,#1a001f,#2e003e,#000000);
+    text-align:center;
+    min-height:100vh;
+    padding:30px;
+}
+
+/* Headings */
+h1 {
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 2px;
+}
+h2 {
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 2px;
+    color:maroon;
+}
+h3 {
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 2px;
+    color:#ff99cc;
+}
+
+/* TEXT */
+.glow {
+    font-size:3rem;
+    color:#bd038b;
+    text-shadow:0 0 15px #905d8c;
+}
+
+button {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:12px 25px;
+    margin:10px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    background:#271c45;
+    color:rgb(237, 192, 192);
+    transition:0.3s;
+}
+
+button:hover {
+    background:#100b0e;
+    transform:scale(1.1);
+}
+
+.letter {
+    width:70%;
+    margin:20px auto;
+    font-size:2.2rem;
+    line-height:1.6;
+    min-height:120px;
+    font-family:'Great Vibes', cursive;
+    color:#e3a279;
+}
+
+.big-question {
+    margin-top:30px;
+    font-size:2rem;
+    color:#ff99cc;
+}
+
+.no-btn { position:relative; }
+
+/* SLIDESHOW */
+.slideshow {
+    width:300px;
+    height:300px;
+    margin:20px auto;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 20px #d8a8c0;
+}
+
+.slideshow img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* CONTRACT */
+.contract {
+    margin-top:40px;
+    padding:20px;
+    background:rgba(43, 19, 66, 0.932);
+    border-radius:15px;
+    font-family:'Great Vibes', serif;
+    font-size:2.0rem;
+    color:#faa986;
+}
+
+/* SPARKLE CANVAS */
+#sparkleCanvas {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+.timeline-container {
+    font-family:'Great Vibes', serif;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    background:radial-gradient(circle at top, #f5f4f8, #dc55dc)
+}
+
+.story {
+    font-size:2.4rem;
+    font-family:'Great Vibes', cursive;
+    color:#291632;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    margin:60px auto;
+    max-width:750px;
+    text-shadow: 0 0 12px rgba(255, 105, 180, 0.4);
+    transition: opacity 2.5s ease-in-out;
+
+}
+
+

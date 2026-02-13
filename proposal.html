@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Love Story</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark">
+
+<audio id="bgMusic" loop>
+    <source src="audio/audiolove.mp3" type="audio/mpeg">
+</audio>
+
+<canvas id="sparkleCanvas"></canvas>
+
+<div class="center">
+
+<h1 class="glow">To My Dudu 💕</h1>
+
+<div class="slideshow">
+    <img id="slideImage" src="images/photo1.jpeg">
+</div>
+
+<p id="loveLetter" class="letter"></p>
+
+<h2 class="big-question">Will You Marry Me? 💍</h2>
+
+<button onclick="yesClicked()">YES 😍</button>
+<button class="no-btn" onmouseover="moveNo(this)">No 😌</button>
+
+<div class="contract">
+    <h3>Official Love Contract 💌</h3>
+    <p>I, Dudu, promise to love Bubu forever, share food, and never ignore messages 😌
+        Enkudeye irukanum. Unaku ennaikume nandhan, Enaku ennaikume needhan idha
+        un aandavanala kooda maatha mudiyathu... Sanda lam vanthalum pesama pogakudathu.
+        Love me forever No other girls!!!
+    </p>
+    <label><input type="checkbox" id="agreeBox"> I Agree ❤️</label>
+    <br>
+    <button onclick="signContract()">Sign Contract</button>
+    <p id="contractResult"></p>
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
